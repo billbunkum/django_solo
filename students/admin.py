@@ -5,4 +5,4 @@ from .models import Student
 class StudentAdmin(admin.ModelAdmin):
 	display = ('name', 'created', 'bio', 'github_url',)
 
-#admin.site.register(Student, StudentAdmin)
+admin.site.register(Student, StudentAdmin)
